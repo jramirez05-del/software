@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.barra{
+    margin: 0;
+    padding: 0%;
+    background-color:#2A2A2A;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.barra ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.barra ul li a:hover{
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.barra ul li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 100px;
+}
+.buscador{
+    float: right;
+    padding: 15px;
+}
+.buscador input[type="search"]{
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 350px;
+    height: 40px;
+    padding: 0;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+
+.buscador input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius:0 15px 15px 0;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: turquoise;
+    font-size: 16px;
+}
+#categorias{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: turquoise;
+    left: -300px;
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    
+    
+}
+#categorias.active{
+    left: 0;
+}
+
+#categorias ul li{
+    list-style: none;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid #2A2A2A;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#categorias a{
+    text-decoration: none;
+    color: black;
+}
+.logotipo{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+#categorias .recorrido{
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    cursor: pointer;
+}
+#categorias .recorrido span{
+    display: block;
+    width: 650px;
+    text-align: center;
+    font-size: 28px;
+    color: turquoise;
+}
+.explorador{
+    padding-top: 80px;
+    margin: 0;
+    color: red;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.explorador ul li{
+    list-style-type: none;
+    display: inline-block;
+    color:white;
+    width: 430px;
+    text-align: center; 
+    cursor: pointer;
+}
+ 
+.explorador ul li:hover {
+    color: turquoise;
+    
+}
+.opciones{
+    font-size: 20px;
+    background-color: #2A2A2A;
+    color:white;
+    outline: none;
+    width: 300px;
+    text-align: center;
+    height: 35px;
+}
+.opciones:hover{
+    background-color: turquoise;
+    color: black;
+}
+.opciones select{
+    border: none;
+    background-color: #2A2A2A;
+    text-align: center;
+}
+.opciones:hover{
+    background-color: turquoise;
+    outline: none;
+    color: black;
+}
+#contenedor{
+    overflow: hidden;
+}
+.antivirus{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen1{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus h2{
+    color:turquoise;
+}
+.antivirus2{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+   margin-left: 35px;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+}
+.imagen2{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus2 a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus2 h2{
+    color:turquoise;
+}
+.office{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 28px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen3{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.office a{
+    text-decoration: none;
+    color: white;
+}
+.oficce h2{
+    color:turquoise;
+}
+.antivirus3{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 28px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen4{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus3 a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus3 h2{
+    color:turquoise;
+}
+.antivirus4{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen5{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus4 a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus4 h2{
+    color:turquoise;
+}
+.antivirus5{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 28px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen6{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus5 a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus5 h2{
+    color:turquoise;
+}
+.microsoft{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 28px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen7{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.microsoft a{
+    text-decoration: none;
+    color: white;
+}
+.microsoft h2{
+    color:turquoise;
+}
+.antivirus6{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 28px;
+    position: static;
+    text-align: center;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.imagen8{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.antivirus6 a{
+    text-decoration: none;
+    color: white;
+}
+.antivirus6 h2{
+    color:turquoise;
+}
+#pie{
+    background-color:#2A2A2A;
+    height: 400px;
+}
+.texto h1{
+    color: turquoise;
+    float: left;
+    margin-left: 30px;
+    margin-top: 38px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenefor-f{
+    float: right;
+    margin-right: 30px;
+    margin-top: 43px;
+}
+.contenefor-f input[type="email"]{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    text-align: center;
+}
+.contenefor-f input[type="submit"]{
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:#D1D1D1;
+}
+.contenefor-f input[type="submit"]:hover{
+    background-color: turquoise;
+    color: black;
+}
+.condicion{
+    margin-top: 12px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+.linea{
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+    background-color: turquoise;
+    margin-top: 24px
+
+}
+.informacion h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 60px;
+    color: turquoise;
+} 
+.informacion{
+    color: white;
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    left: 50px;
+}
+.informacion ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    list-style: none;
+}
+.informacion ul li{
+    margin-top: 3px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.informacion ul li a:hover{
+    color: turquoise;
+    text-decoration: underline;
+}
+.informacion2 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    color: turquoise;
+}
+.informacion2{
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.informacion2 ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.informacion2 ul li{
+    margin-top: 3px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+.informacion2 ul li a:hover{
+    color: turquoise;
+    text-decoration: underline;
+}
+.informacion3 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    color: turquoise;
+}
+.informacion3{
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.informacion3 ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.informacion3 ul li{
+    margin-top: 3px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+.informacion3 ul li a:hover{
+    color: turquoise;
+    text-decoration: underline;
+}
+
+
+
+
+

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.contenedor{
+    background-color:#2a2a2a;
+    color: white;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 16px;
+    border-color: turquoise;
+    border-style: solid;
+
+}
+
+.producto{
+    width: 45%;
+    height: 360px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 135px;
+}
+.producto img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.formulario h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: turquoise;
+    padding-top: 20px; 
+}
+.formulario h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.form input[type="Text"]{
+    width: 250px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    font-size: 16px;
+
+}
+.direc{
+    width: 509px;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+.form input[type="number"]{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    margin-left: 180px;
+    font-size: 16px;
+}
+.form input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    margin-left: 180px;
+    font-size: 16px;
+
+}
+.form input[type="submit"]:hover{
+    background-color: turquoise;
+}
+.form input[type="number"]:hover{
+    background-color: rgb(163, 163, 163);
+}
+.form input[type="text"]:hover{
+    background-color: rgb(163, 163, 163);
+}
+.direc:hover{
+    background-color: rgb(163, 163, 163);
+}
+.comentarios{
+    background-color: turquoise;
+    color: white;
+    width: 70%;
+    height: 250px;
+    margin: auto;
+    border-radius: 16px;
+    border-color: #2a2a2a;
+    border-style: solid;
+}
+.formcom h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formcom input[type="text"]{
+    margin-left: 22px;
+    width: 900px;
+    height: 170px;
+    outline: none;
+    border-radius: 16px;
+    border-style: none;
+    font-size: 16px;  
+    text-align: center;
+}
+.formcom input[type="text"]:hover{
+    background-color: rgb(163, 163, 163);
+}
+.formcom input[type="submit"]{
+    margin-top: 10px;
+    background-color: rgb(163, 163, 163);
+    margin-left: 440px;
+    width: 130px;
+    height: 25px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    font-size: 16px;  
+}
+.formcom input[type="submit"]:hover{
+    background-color: white;
+}
+.tabla{
+    background-color: white;
+    width: 60%;
+    height: 250px;
+    margin: auto;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: turquoise;
+
+}
+.tp {
+    margin: auto;
+    height: 90%;
+    font-size: 20px;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 90%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+.tp td, th{
+    padding: 10px;
+    border: solid 1px
+
+}
+.tp thead{
+    background-color: turquoise;
+}
